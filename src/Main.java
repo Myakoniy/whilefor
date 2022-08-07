@@ -23,6 +23,23 @@ public class Main {
 
 
 
+        for (int firstFriday = 3; firstFriday < 32; firstFriday += 7 ) {
+
+            System.out.println("Сегодня пятница " + firstFriday + "-е число");
+        }
+
+        //Zadanie 3
+        System.out.println();
+        System.out.println("Zadanie 3");
+
+        for (int m=0; m<2122; m+=79) {
+            if (m>1822 && m<2122)
+                System.out.println(m);
+
+        }
+
+
+
 
 
 
